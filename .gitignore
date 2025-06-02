@@ -1,0 +1,32 @@
+*.bak
+*.old
+*.dep
+*.ewt
+*.ewd
+*.tmp
+*.o
+*.idx
+*.mk
+*.xdt
+*.js
+*.json
+!.vscode/*.json
+bootloader/boot_setting.hex
+.i
+.o
+source/prj/_build
+Release/*.hex
+Release/*.map
+Release/*.
+build/*.i
+build/*.o
+**/backup/*.log
+_build/**dir
+build/Debug
+build/Release
+Verbose output
+Laconic output
+html
+*.log
+*__pycache__/
+*.deb
