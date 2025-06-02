@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Build basic_ble",
+            "command": "./build.sh -r basic_ble",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "options": {
+            }
+        },
+        {
+            "type": "shell",
+            "label": "Clean TI",
+            "command": "./build.sh -c",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "options": {
+                "env": {
+                    "DELETE":    "rm -rf ${workspaceFolder}/build/Debug;rm -fr ${workspaceFolder}/build/Release"
+                }        
+            }
+        },
+		{
+            "label": "Flash Device (UniFlash)",
+            "type": "shell",
+            "command": "C:/Simple_link_toolchain/uniflash_9.1.0/dslite.bat --flash-image \"${workspaceFolder}/build/Release/debugging_img.hex\" --config cc13xx_cc26xx_2pin_cJTAG_XDS110\  --flash-image \"${workspaceFolder}/build/Release/debugging_img.hex\ --verbose",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

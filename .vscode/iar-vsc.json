@@ -1,0 +1,18 @@
+{
+  "workspace": {
+    "path": "${workspaceFolder}\\source\\ble5stack\\basic_ble\\freertos\\iar\\basic_ble_LP_EM_CC2340R53_freertos_iar.template.eww"
+  },
+  "workspaces": {
+    "${workspaceFolder}\\source\\ble5stack\\basic_ble\\freertos\\iar\\basic_ble_LP_EM_CC2340R53_freertos_iar.template.eww": {
+      "configs": {
+        "${workspaceFolder}\\source\\ble5stack\\basic_ble\\freertos\\iar\\basic_ble_LP_EM_CC2340R53_freertos_iar.ewp": "Release"
+      },
+      "selected": {
+        "path": "${workspaceFolder}\\source\\ble5stack\\basic_ble\\freertos\\iar\\basic_ble_LP_EM_CC2340R53_freertos_iar.ewp"
+      }
+    }
+  },
+  "workbench": {
+    "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.2"
+  }
+}

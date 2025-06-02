@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "cstddef": "c",
+        "optional": "c",
+        "limits": "c",
+        "memory": "c",
+        "new": "c",
+        "stdint.h": "c",
+        "freertos.h": "c",
+        "trctypes.h": "c",
+        "ptls.h": "c",
+        "freertosconfig.h": "c",
+        "mtx.h": "c",
+        "portmacro.h": "c"
+    },
+    "cmake.sourceDirectory": "/workspaces/basic_ble",
+    "C_Cpp.errorSquiggles": "disabled",
+    "#C_Cpp.dimInactiveRegions": true
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?ccsproject version="1.0"?>
+<projectOptions>
+	<ccsVariant value="50:Theia-based"/>
+	<ccsVersion value="70.1.1"/>
+	<deviceFamily value="TMS470"/>
+	<connection value="common/targetdb/connections/TIXDS110_Connection.xml"/>
+	<executableActions value=""/>
+	<createSlaveProjects value=""/>
+	<ignoreDefaultDeviceSettings value="true"/>
+	<ignoreDefaultCCSSettings value="true"/>
+	<templateProperties value="id=basic_ble_LP_EM_CC2340R53_freertos_ticlang.projectspec.basic_ble_LP_EM_CC2340R53_freertos_ticlang,buildProfile=release,isHybrid=true"/>
+	<activeTargetConfiguration value="targetConfigs/CC2340R53.ccxml"/>
+	<isTargetConfigurationManual value="false"/>
+	<origin value="C:\ti\simplelink_lowpower_f3_sdk_8_40_02_01\examples\rtos\LP_EM_CC2340R53\ble5stack\basic_ble\freertos\ticlang\basic_ble_LP_EM_CC2340R53_freertos_ticlang.projectspec"/>
+	<filesToOpen value=""/>
+</projectOptions>

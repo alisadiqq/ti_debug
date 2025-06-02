@@ -1,0 +1,24 @@
+{
+	"version": "0.2.0",
+	"configurations": 
+	[
+		{
+			"name": "Debug (TI XDS via OpenOCD)", 
+			"type": "cortex-debug",
+			"request": "launch",
+			"servertype": "openocd", 
+			"configFiles": [
+				"C:/Simple_link_toolchain/ti-embedded-debug/openocd/20250414/share/openocd/scripts/interface/xds110.cfg",
+				"C:/Simple_link_toolchain/ti-embedded-debug/openocd/20250414/share/openocd/scripts/target/ti_cc2340r5.cfg" 
+			],
+			"searchDir": [
+				"C:/Simple_link_toolchain/ti-embedded-debug/openocd/20250414/bin"
+			],
+			"device": "CC2340R5",
+			"executable": "${workspaceFolder}/build/Release/debugging_img.out",
+			"cwd": "${workspaceFolder}",
+			"runToEntryPoint": "main",
+            "showDevDebugOutput": "none",
+		}		
+	]
+}

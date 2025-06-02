@@ -1,0 +1,47 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "DeviceFamily_CC2340R53",
+                "CC23X0",
+                "ICALL_NO_APP_EVENTS",
+                "NVOCMP_NWSAMEITEM=1",
+
+                "FLASH_ONLY_BUILD",
+                "NVOCMP_NVPAGES=6",
+                "FREERTOS",
+                "NVOCMP_POSIX_MUTEX",
+                "NDEBUG",
+                "PERIPHERAL_CFG",
+                "HOST_CONFIG=PERIPHERAL_CFG",
+                "HCI_TL_NONE",
+                "GAP_BOND_MGR",
+                "SYSCFG",
+                "MAX_NUM_BLE_CONNS",
+                "GATT_MAX_PREPARE_WRITES",
+                "EXTENDED_STACK_SETTINGS=EXTENDED_STACK_SETTINGS_DEFAULT",
+                "GAP_BONDINGS_MAX=5",
+                "POWER_SAVING",
+                "STACK_LIBRARY",
+                "ONE_BLE_LIB_SIZE_OPTIMIZATION",
+                "ICALL_EVENTS",
+                "ICALL_JT",
+                "ICALL_LITE",
+				"USE_ICALL",
+				"ICALL_MAX_NUM_ENTITIES=6",
+				"ICALL_MAX_NUM_TASKS=3",
+				"OSAL_CBTIMER_NUM_TASKS=1",
+                "NPI_USE_UART"
+            ],
+            "windowsSdkVersion": "10.0.22000.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-arm"
+        }
+    ],
+    "version": 4
+}
